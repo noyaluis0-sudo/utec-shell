@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hola $USER" /n
+echo "Hola $USER"
