@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${PATH//[!: ]/}" | wc -c 
+printf "%s\n" ${PATH//:/ } | grep -c / 
