@@ -1,2 +1,2 @@
 #!/bin/bash
-( IFS=:; set -- $PATH; echo $# )
+IFS=:; set -- $PATH; echo $# 
