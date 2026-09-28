@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {a..z}{a..z}; do [ $i != oo ] && echo $i; done
+printf "%s\n" {a..n}{a..z} o{a..n} o{p..z} {p..z}{a..z}
